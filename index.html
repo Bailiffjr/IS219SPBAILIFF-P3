@@ -37,7 +37,7 @@
         <div class="col-md-6"> 
             <div class="thumbnail">
 
-					<img class="poster" />
+					<img class="poster" ng-click="posterClick($index)" ng-src="{{movie.posters[movie.posterindex]}}" />
 					<div class="imageInfo">Poster {{movie.posterindex + 1}} of {{movie.posters.length}} </div>
 					
 					<p class="title">{{movie.title}} ({{movie.country}})</p> 
@@ -47,8 +47,8 @@
 					<p class="websites">Websites: <a>{{movie.imdb}}</a> | <a>{{movie.website}}</a></p>
 					
 		            <div class="social">
-		              <p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i> %like%</p>
-		              <p class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i> %dislike%</p>
+		              <p class="likes" ng-click="like($index)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{movie.likes}} </p>
+		              <p class="dislikes" ng-click="dislike($index)"><i class="fa fa-thumbs-down" aria-hidden="true"></i> {{movie.dislikes}}</p>
 		            </div>
             </div> 
         </div>
