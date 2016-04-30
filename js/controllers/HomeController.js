@@ -88,6 +88,48 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
+	},
+    { 
+      title:	'The Hunger Games: Mockingjay - Part 2', 
+      iscore:	6.7,
+      rating:	'pg-13',
+      runtime:	137,
+      released:	new Date('2015', '11', '20'),
+      country:	'USA',
+      posters:	['img/hungergames1.jpg','img/hungergames2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt1951266/?ref_=nv_sr_1',
+      website:	'https://www.uphe.com/Hunger_games',
+      likes:	952,
+      dislikes:	52,
+      posterindex: 0
+	},
+    { 
+      title:	'12 Years a Slave', 
+      iscore:	8.1,
+      rating:	'R',
+      runtime:	134,
+      released:	new Date('2013', '11', '8'),
+      country:	'USA',
+      posters:	['img/12yearsaslave1.jpg','img/12yearsaslave2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt2024544/?ref_=nv_sr_1',
+      website:	'https://www.uphe.com/twelve-years-a-slave',
+      likes:	1250,
+      dislikes:	125,
+      posterindex: 0
+	},
+    { 
+      title:	'Toy Story', 
+      iscore:	8.3,
+      rating:	'G',
+      runtime:	121,
+      released:	new Date('1995', '11', '22'),
+      country:	'USA',
+      posters:	['img/toystory1.jpg','img/toystory2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt0114709/?ref_=nv_sr_1',
+      website:	'https://www.uphe.com/toystory',
+      likes:	759,
+      dislikes:	48,
+      posterindex: 0
 	}
 	
 	
