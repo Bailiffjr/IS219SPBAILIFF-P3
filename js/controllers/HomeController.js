@@ -92,7 +92,7 @@ app.controller('HomeController', ['$scope', function($scope) {
     { 
       title:	'The Hunger Games: Mockingjay - Part 2', 
       iscore:	6.7,
-      rating:	'pg-13',
+      rating:	'PG-13',
       runtime:	137,
       released:	new Date('2015', '11', '20'),
       country:	'USA',
